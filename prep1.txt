@@ -111,10 +111,12 @@ B. Data Stucture using c++ [CODE]
     GREEDY,DP,SORTING, Divide & Conquere, Segment Tree(~skip, range query),  - algorithms , will focus on section C
 
 
-
-
 Part C. Algorithms & Problem Solving (using c++) (uses data structure to solve coding problems)
 
+    ARRAY & MATRIX
+        print spiral order traveral of a matrix
+        print transpose of a matrix
+       
 
     SORTING & SEARCHING
         THEORY - Shai Simmon, L2,L3 on sorting
@@ -124,11 +126,101 @@ Part C. Algorithms & Problem Solving (using c++) (uses data structure to solve c
             code for all type of sort, and submit on gfg/leetcode
 
             find a element in a sorted array O(log n ) compleixy code
-            ...
+            find a element in 2d sorted matrix in O(log m+n )
+            lower_bound, upper_bound implemenation using code, using cpp stl
+            
+            lower_bound,upper_bond,search using c++ STL 
+
+    RECUSION (+-dp)                                                             (~realted - dp,backTracking,graph,tree)
+        THEORY - textbook,udemy(check udemy for theory,46-66)
+    l0
+        print a array using recursion.
+        print a linke list using iterative + recursion [REPEAPTED]
+        fibonacci, nCr
+        tower of Hanaoi
+
+    l1
+        print all permutation of a string [IMP]
+        mergesort, quicksort [REPEATED]
+        check if string is palindrom WITH recursion.
+
+        subset sum problem - give a array, decide if you can create a total sum of X [IMP]
+            https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
+
+        diameter of tree [SKIP HERE]
+        check is string is anargam, palindrome [REPEATED]
+        egg dropping problem
+
+    l2
+
+
+        
+
+    STRING
+        check palindrome
+        check if two string are anargam
+        print all permutation of string [IMP]
+        print all occurrance of a string
+        todo - more basics
+
+
+    DYNAMIC_PROGRAMMING [MUST - https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7]
+       
+       pattern1 - 0/1knapspac pattern
+            subset sum problem
+            0/1 knapsack problem
+            rob cutting problem
+        
+      matrix chain multiplication pattern
+            matrix chain multiplication
+            burn bullon
+
+     LCS (longest common subsequenc) pattern
+        lcs, given two string find the lenght of most common part
+        longst common substring (NOTE: its substring not subsquence)
+
+        longest palindroic substring
+
+    ending at idx, starting at idx pattern  
+        kadan's algorithm
+
+    Others/general
+        egg dropping puzzle
+        maximum sum root to leaf node of tree
+
+    SLIDING WINDOW
+        rain water harvesting
+        Maximum sum of a subarray of size k
+        Longest substring with distinct characters
+        Subarray with given sum
+
+    BACTRACKING
+        N-Queen
+        Sudo Solver
+
+
+    GREEDY
+        ..2(from theory)
+        Job Scheduling (~SKIP)
+
+    TREE
+       inorder traversal, preorder traverl, postorder traversal
+       left view of tre, right view of tree, top view of tree, bottom view of tree
+       zigzag tree traversal
+       ...todo more (LATEEEEER)
+
 
     GRAPH   
         THEORY - Shai Simonson, 6-9, 10(optional) [MUST]  
         CODE
+            Dijkastra, cycle detetion, bfs,dfs
 
-ALBEGRA/MATH
-    cp-algorithm ~ will do later
+    QUEUE,stack,priority_queue (SKIPPPPP)
+
+    ALBEGRA/MATH
+        cp-algorithm ~ will do later
+        x^y calculation [RECURSION,IMP]
+        integer to string,string to integer Programming
+
+        primaliry check - to detect if a number is prime or not
+        find all prime less than N, sieve-of-eratosthenes
