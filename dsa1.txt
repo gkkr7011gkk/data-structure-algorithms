@@ -1,6 +1,6 @@
 
 
-Part A. Language Basisc
+Part A. Language Basisc [4day]
 
     c++
         create an array, print an array, update array element, pass array to function (same for vector)
@@ -21,13 +21,13 @@ Part A. Language Basisc
 B. Data Stucture using c++ [CODE]
 
     
-    ARRAY  (int arr[], vector<int>  vec)
+    ARRAY  (int arr[], vector<int>  vec) [2day]
         array implemenetaion , update , print , fucntion passing in cpp
         array of int, array of string
 
         TOR
     
-    MATRIX
+    MATRIX [2day]
         create a 2d matrix of size N,M
         pass 2d matrix to function
         use vector to create a 2d metrix & pass as function
@@ -38,7 +38,7 @@ B. Data Stucture using c++ [CODE]
 
         matrix of N*M*K*P dimensation, creation, print
 
-    STRING
+    STRING [3day]
         creat a string of fixed size.
         string constructor & their use
             string s = "Hello";
@@ -49,14 +49,14 @@ B. Data Stucture using c++ [CODE]
 
         (integer to string - CODE)
 
-    LINKED_LIST
+    LINKED_LIST [10day]
         THEORY - what is linked list? what is the need if array is there? complexiy in various opertion of linked list.
         CODE - creat a linked list in cpp, pass a lined link to function, copy a linked list, print a linked list- iterative, print a linked list-recursive
                 add a element to linked list, delete an element from linked list
 
                 doubly-linked list - theory + creation, add and elemet, delete an element
 
-    Stack,Queue,Head(priority_queue)
+    Stack,Queue,Head(priority_queue) [1day]
         stack - THEORY - what is a stack, and what operation it supports? (~udemy, collage concept)   
                 CODE1 - code stack using array (no use of cpp STL stack)
                 
@@ -67,13 +67,13 @@ B. Data Stucture using c++ [CODE]
 
         priority_queue ~ later  
 
-    TREE
+    TREE [5day]
         create tree in cpp
         print a tree - preorder,indorder,postorder 
         height of a tree
         search a node in tree, print all leaf node of a tree
 
-    BST(Binary Search Tree)
+    BST(Binary Search Tree) [12day]
         creat a binary search tree from a sorted array
         find elemnt in a bst
         insert a element in bst, delete a element from bst
@@ -82,7 +82,7 @@ B. Data Stucture using c++ [CODE]
 
         given a bst, print its sorted inorder traversal
 
-    GRAPH 
+    GRAPH [15day + with me]
         THEORY [MUST]- https://www.youtube.com/watch?v=gwlevtaC-u0&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
         CODE
             creat a adjudency list graph in cpp
@@ -99,7 +99,7 @@ B. Data Stucture using c++ [CODE]
             back edge detection(??)
 
 
-            Dijkastra
+            Dijkastra 
             BellmanForm algorithm (~skip code)
             Minimal Spanning Tree (~skip code)
 
@@ -113,6 +113,7 @@ B. Data Stucture using c++ [CODE]
 
 Part C. Algorithms & Problem Solving (using c++) (uses data structure to solve coding problems)
 
+    START FROM REURSION <= IMP
     ARRAY & MATRIX
         print spiral order traveral of a matrix
         print transpose of a matrix
