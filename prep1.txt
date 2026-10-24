@@ -197,6 +197,7 @@ Part C. Algorithms & Problem Solving (using c++) (uses data structure to solve c
     BACTRACKING
         N-Queen
         Sudo Solver
+        Rat is a Maze
 
 
     GREEDY
