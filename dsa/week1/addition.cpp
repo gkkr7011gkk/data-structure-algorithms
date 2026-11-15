@@ -2,18 +2,16 @@
 using namespace std;
 
 int main()
-
 {
+    int a ,b, c, d;
 
-    int  a, b, c;
+    cout << "Enter 4 number:" ;
 
-    cout <<"Enter three number:";
+    cin >> a >> b >> c >> d;
 
-    cin >> a >> b >> c;
+    int e = a + b + c + d;
 
-    int d = a + b + c;
-    cout << "Sum = " <<d<< endl;
+    cout << "Sum = " << e << endl;
 
     return 0;
-
 }
